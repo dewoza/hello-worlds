@@ -1,0 +1,29 @@
+Short Info on Groovy Spring Boot RESTful:
+[groovy-lang.org](http://groovy-lang.org/differences.html)
+[medium.com](https://medium.com/inside-bukalapak/rest-api-with-spring-boot-groovy-fa9d5b1e5274)
+[geeksforgeeks.org](https://www.geeksforgeeks.org/difference-between-groovy-and-java/)
+[allegro.tech](https://allegro.tech/2015/05/Reasons-to-learn-groovy.html)
+
+How does it work?
+Groovy will be compiled to Java byte code. Thus, it can run on JVM.
+Groovy is a superset of Java which means Java program will run in Groovy environment.
+Syntax is Java-like.
+
+Is it OO? Functional?
+Groovy is OO, some functional aspects
+
+What was it designed for? (Web? Realtime?)
+Easy to use, Java-friendly language for programming and scripting.
+
+Advantages/Disadvantages compared to Java?
+
+| Java | Groovy |
+|------|--------|
+| It is developed on JDK and is run on JVM | It is compiled to JVM Byte code and It is compatible with Java platform
+| It is used as programming and object oriented Language | It is used as both programming and scripting Language
+| In Java default access modifier package | In Groovy default access modifier public
+| In Java, you need to provide getters and setters method for fields, especially if you are following Java Beans naming convention | In Groovy, getters and setters are automatically generated for class members
+| In Java semicolons are compulsory | In Groovy semicolons are optional
+| In Java only Java.lang.* package is imported by default | In Groovy commonly used packages are imported by default
+| Java has primitive data types and wrapper classes to perform boxing and unboxing implicitly or explicitly | In Groovy everything is object and uses only object hence no concept of autoboxing or unboxing
+| Java has a requirement of the main method inside a class to run the program | Groovy does not require any main method or entry point of a method to run the class or any program
